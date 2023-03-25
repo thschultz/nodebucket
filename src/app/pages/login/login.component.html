@@ -27,20 +27,22 @@
       <mat-card class="mat-elevation-20">
         <form [formGroup]="loginForm" (ngSubmit)="login(); loginForm.reset();">
           <mat-card-content>
-            < appearance="fill" class="w-100">
+            <mat-form-field appearance="fill" class="w-100">
               <input matInput formControlName="empId" placeholder="Employee ID" />
-              <!-- error handling. employee id is required and must be numeric -->
+
               <mat-error
                 *ngIf="loginForm.controls['empId'].hasError('required') && loginForm.controls['empId'].touched">
                 Employee ID is required.
-              </mat-error>
-              <mat-error
-                *ngIf="loginForm.controls['empId'].hasError('pattern') && loginForm.controls['empId'].touched">Employee
-                ID must be a numeric value.
-              </mat-error>
+                <mat-error
+                  *ngIf="loginForm.controls['empId'].hasError('pattern') && loginForm.controls['empId'].touched">Employee
+                  ID must be a numeric value.
+                </mat-error>
 
               </mat-error>
-              </mat-form-field>
+            </mat-form-field>
+
+
+
           </mat-card-content>
 
           <mat-card-actions>

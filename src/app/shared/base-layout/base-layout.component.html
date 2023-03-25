@@ -1,17 +1,17 @@
-// <!-- WEB 450 Mastering the MEAN Stack Bootcamp
-  // Contributors
+<!-- WEB 450 Mastering the MEAN Stack Bootcamp
+Contributors
 
-  // Contributors:
-  // Richard Krasso
-  // Thomas James Schultz -->
+Contributors:
+Richard Krasso
+Thomas James Schultz -->
 
 <div fxLayout="column">
 
   <!-- navigation -->
-  <nav fxFlex>
+  <nav>
     <mat-toolbar style="background-color: #ae0001" color="primary">
       <!-- navbar container -->
-      <div class="navbar-container">
+      <div class="navbar-container" fxLayoutAlign="end start">
         <!-- logo -->
         <button class="logo" routerLink="/" mat-button>nodebucket</button>
 
@@ -28,7 +28,6 @@
         <mat-menu #profileMenu>
           <p style="color: black;">Sign in as {{ sessionName }}</p>
           <button mat-menu-item (click)="logout()">
-            <mat-icon>Logout</mat-icon>
             <span>Log out</span>
           </button>
         </mat-menu>
