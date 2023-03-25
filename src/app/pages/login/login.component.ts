@@ -1,3 +1,10 @@
+// <!-- WEB 450 Mastering the MEAN Stack Bootcamp
+// Contributors
+
+// Contributors:
+// Richard Krasso
+// Thomas James Schultz -->
+
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { CookieService } from 'ngx-cookie-service';
@@ -29,7 +36,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  // Login function. also checking if empId is valid.
   login() {
     const empId = this.loginForm.controls['empId'].value
 

@@ -1,3 +1,10 @@
+// <!-- WEB 450 Mastering the MEAN Stack Bootcamp
+// Contributors
+
+// Contributors:
+// Richard Krasso
+// Thomas James Schultz -->
+
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
@@ -19,7 +26,7 @@ export class BaseLayoutComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  //logout function.
   logout() {
     this.cookieService.deleteAll()
     this.router.navigate(['/session/login'])

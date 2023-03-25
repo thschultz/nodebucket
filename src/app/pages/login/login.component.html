@@ -1,7 +1,15 @@
+<!-- WEB 450 Mastering the MEAN Stack Bootcamp
+  // Contributors
+
+  // Contributors:
+  // Richard Krasso
+  // Thomas James Schultz -->
+
 <div fxLayout="column">
 
   <mat-card fxFlex class="login-container">
     <mat-card-header>
+      <!-- title  -->
       <mat-card-title class="login-title">
         Employee Sign-In Page
       </mat-card-title>
@@ -9,6 +17,7 @@
       <br>
 
       <mat-card-subtitle class="login-subtitle">
+        <!-- subtitle telling user to put valid employee id -->
         You must enter a valid employee ID to continue.
       </mat-card-subtitle>
     </mat-card-header>
@@ -18,22 +27,24 @@
       <mat-card class="mat-elevation-20">
         <form [formGroup]="loginForm" (ngSubmit)="login(); loginForm.reset();">
           <mat-card-content>
-            <mat-form-field appearance="fill" class="w-100">
+            < appearance="fill" class="w-100">
               <input matInput formControlName="empId" placeholder="Employee ID" />
-
+              <!-- error handling. employee id is required and must be numeric -->
               <mat-error
                 *ngIf="loginForm.controls['empId'].hasError('required') && loginForm.controls['empId'].touched">
                 Employee ID is required.
-                <mat-error
-                  *ngIf="loginForm.controls['empId'].hasError('pattern') && loginForm.controls['empId'].touched">Employee
-                  ID must be a numeric value.
-                </mat-error>
+              </mat-error>
+              <mat-error
+                *ngIf="loginForm.controls['empId'].hasError('pattern') && loginForm.controls['empId'].touched">Employee
+                ID must be a numeric value.
+              </mat-error>
 
               </mat-error>
-            </mat-form-field>
+              </mat-form-field>
           </mat-card-content>
 
           <mat-card-actions>
+            <!-- login button -->
             <button type="submit" fxFlex mat-raised-button color="primary" class="btn-lg"
               [disabled]="!loginForm.valid">Log In</button>
           </mat-card-actions>

@@ -1,3 +1,10 @@
+// <!-- WEB 450 Mastering the MEAN Stack Bootcamp
+// Contributors
+
+// Contributors:
+// Richard Krasso
+// Thomas James Schultz -->
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 

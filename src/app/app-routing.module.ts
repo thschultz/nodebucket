@@ -1,3 +1,10 @@
+// <!-- WEB 450 Mastering the MEAN Stack Bootcamp
+// Contributors
+
+// Contributors:
+// Richard Krasso
+// Thomas James Schultz -->
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BaseLayoutComponent } from "./shared/base-layout/base-layout.component";
@@ -6,6 +13,7 @@ import { AuthLayoutComponent } from './shared/auth-layout/auth-layout.component'
 import { LoginComponent } from './pages/login/login.component';
 import { AuthGuard } from './auth.guard';
 
+//components that are available to navigate to
 const routes: Routes = [
   {
     path: '',
