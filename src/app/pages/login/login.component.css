@@ -4,6 +4,10 @@ Contributors
 Contributors:
 Richard Krasso
 Thomas James Schultz */
+/* body {
+  background-color: white;
+} */
+
 
 .login-container {
   width: 35%;
@@ -29,7 +33,7 @@ Thomas James Schultz */
 }
 
 .mat-card-header {
-  background-color: #4F3674;
+  background-color: #AE0001;
   padding-left: 8%;
   padding-top: 15px;
   color: white;
