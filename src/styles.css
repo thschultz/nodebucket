@@ -11,3 +11,7 @@ body {
   background-color: #d3a625;
   color: white;
 }
+
+.w-100 {
+  width: 100%;
+}

@@ -1,3 +1,10 @@
+// <!-- WEB 450 Mastering the MEAN Stack Bootcamp
+  // Contributors
+
+  // Contributors:
+  // Richard Krasso
+  // Thomas James Schultz -->
+
 <div fxLayout="column">
 
   <!-- navigation -->
@@ -10,6 +17,21 @@
 
         <button class="navbar-link" routerLink="/" mat-button>Home</button>
         <button class="navbar-link" mat-button>About</button>
+      </div>
+      <div fxFlex></div>
+
+      <div>
+        <!-- This is on the right side of the navbar. shows user information and allows them to logout -->
+        <button mat-icon-button [matMenuTriggerFor]="profileMenu" aria-label="User Profile Menu">
+          <mat-icon>perm_identity</mat-icon>
+        </button>
+        <mat-menu #profileMenu>
+          <p style="color: black;">Sign in as {{ sessionName }}</p>
+          <button mat-menu-item (click)="logout()">
+            <mat-icon>Logout</mat-icon>
+            <span>Log out</span>
+          </button>
+        </mat-menu>
       </div>
 
     </mat-toolbar>
