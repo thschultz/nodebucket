@@ -12,7 +12,8 @@ import { HomeComponent } from "./pages/home/home.component";
 import { AuthLayoutComponent } from './shared/auth-layout/auth-layout.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AuthGuard } from './auth.guard';
-
+import { ContactComponent } from './pages/contact/contact.component';
+import { AboutComponent } from './pages/about/about.component';
 //components that are available to navigate to
 const routes: Routes = [
   {
@@ -22,6 +23,21 @@ const routes: Routes = [
       {
         path: '',
         component: HomeComponent,
+        canActivate: [AuthGuard]
+      },
+      {
+        path: 'home',
+        component: HomeComponent,
+        canActivate: [AuthGuard]
+      },
+      {
+        path: 'about',
+        component: AboutComponent,
+        canActivate: [AuthGuard]
+      },
+      {
+        path: 'contact',
+        component: ContactComponent,
         canActivate: [AuthGuard]
       }
     ]

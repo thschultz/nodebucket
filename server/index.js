@@ -32,7 +32,7 @@ mongoose.connect(CONN).then(() => {
   console.log('MongoDB Error: ' + err.message);
 });
 
-app.use('/api/employees', EmployeeRoute)
+app.use('/api/employees', EmployeeRoute);
 
 //Error Handlers for 404 errors
 app.use(function(req, res, next) {
