@@ -19,10 +19,19 @@ h2 {
   color: white;
 }
 
+p {
+  font-size: 16px;
+}
+
 .text-center {
   text-align: center;
   color: white;
   font-size: 24px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 hr {

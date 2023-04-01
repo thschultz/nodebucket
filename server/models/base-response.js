@@ -1,3 +1,11 @@
+// <!-- WEB 450 Mastering the MEAN Stack Bootcamp
+// Contributors
+
+// Contributors:
+// Richard Krasso
+// Thomas James Schultz -->
+
+//to store server responses
 class BaseResponse {
   constructor (httpCode, message, data) {
     this.httpCode = httpCode;

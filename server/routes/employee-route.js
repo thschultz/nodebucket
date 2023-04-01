@@ -1,3 +1,10 @@
+// <!-- WEB 450 Mastering the MEAN Stack Bootcamp
+// Contributors
+
+// Contributors:
+// Richard Krasso
+// Thomas James Schultz -->
+
 const express = require('express');
 const Employee = require('../models/employee');
 const { debugLogger, errorLogger} = require('../logs/logger');
@@ -9,6 +16,8 @@ const BaseResponse = require('../models/base-response');
 const myFile = 'employee-route.js';
 const ajv = new Ajv()
 
+
+// checking is id is a number
 const checkNum = (id) => {
 
   id = parseInt(id,10)
@@ -23,6 +32,7 @@ const checkNum = (id) => {
   }
 }
 
+// tasks set as string
 const taskSchema = {
   type: 'object',
   properties: {
@@ -31,7 +41,7 @@ const taskSchema = {
   required: ['text'],
   additionalProperties: false
 }
-
+// router to get id
 router.get('/:id', (req, res, next) => {
 
   let empId = req.params.id
@@ -102,6 +112,7 @@ router.get("/:empId/tasks", async(req, res, next) => {
  * createTasks
  */
 
+// posting tasks api
 router.post("/:empId/tasks", async(req, res, next) => {
   let empId = req.params.empId
 
@@ -149,4 +160,5 @@ router.post("/:empId/tasks", async(req, res, next) => {
   }
 });
 
+//exporting router
 module.exports = router

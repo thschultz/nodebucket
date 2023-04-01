@@ -24,6 +24,11 @@ Thomas James Schultz */
   margin: 0 auto;
 }
 
+.serverMessage {
+  width: 35%;
+  margin: 0 auto;
+}
+
 .task-column {
   min-height: 68px;
   background-color: white;

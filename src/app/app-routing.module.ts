@@ -14,6 +14,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { AuthGuard } from './auth.guard';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 //components that are available to navigate to
 const routes: Routes = [
   {
@@ -49,8 +50,17 @@ const routes: Routes = [
       {
         path: 'login',
         component: LoginComponent
+      },
+      {
+        path: 'notfound',
+        component: NotfoundComponent
       }
     ]
+  },
+  //not found page routing
+  {
+    path: '**',
+    redirectTo: 'session/notfound'
   }
 ];
 

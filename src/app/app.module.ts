@@ -32,6 +32,7 @@ import { MessageModule } from 'primeng/message';
 import { MessagesModule } from 'primeng/messages';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 
 
@@ -44,7 +45,8 @@ import { AboutComponent } from './pages/about/about.component';
     BaseLayoutComponent,
     LoginComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,

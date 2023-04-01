@@ -1,3 +1,5 @@
+
+
 [3/27/2023] server	 employee-router.js = {
   _id: new ObjectId("64190307e870ecf0230dc5b1"),
   empId: 1007,
@@ -1354,4 +1356,245 @@
       _id: new ObjectId("642628dcfeb10e4cf91f760d")
     }
   ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  firstName: 'Homer',
+  lastName: 'Simpson',
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  firstName: 'Homer',
+  lastName: 'Simpson',
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    }
+  ],
+  done: [],
+  __v: 1
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  firstName: 'Homer',
+  lastName: 'Simpson',
+  __v: 2,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    },
+    {
+      text: 'walk the dogs',
+      _id: new ObjectId("64283006755c53aaeaf339e3")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    },
+    {
+      text: 'walk the dogs',
+      _id: new ObjectId("64283006755c53aaeaf339e3")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    },
+    {
+      text: 'walk the dogs',
+      _id: new ObjectId("64283006755c53aaeaf339e3")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    },
+    {
+      text: 'walk the dogs',
+      _id: new ObjectId("64283006755c53aaeaf339e3")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    },
+    {
+      text: 'walk the dogs',
+      _id: new ObjectId("64283006755c53aaeaf339e3")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    },
+    {
+      text: 'walk the dogs',
+      _id: new ObjectId("64283006755c53aaeaf339e3")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    },
+    {
+      text: 'walk the dogs',
+      _id: new ObjectId("64283006755c53aaeaf339e3")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("6419040be870ecf0230dc5b4"),
+  empId: 1010,
+  done: [],
+  todo: [
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("64282fb0755c53aaeaf339db")
+    },
+    {
+      text: 'walk the dogs',
+      _id: new ObjectId("64283006755c53aaeaf339e3")
+    }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  firstName: 'Cathy',
+  lastName: 'Schultz',
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190447e870ecf0230dc5b6"),
+  empId: 1012,
+  todo: [],
+  done: []
 }
