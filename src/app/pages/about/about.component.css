@@ -1,0 +1,43 @@
+/* WEB 425 Angular with TypeScript
+Contributors
+
+Contributors:
+Richard Krasso
+Thomas James Schultz */
+
+p,
+h3,
+mat-card-title {
+  color: white;
+}
+
+mat-card-title {
+  font-size: 28px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+hr {
+  margin: 1rem 0;
+  color: white;
+  border: 0;
+  border-top: 2px solid;
+  opacity: 1;
+}

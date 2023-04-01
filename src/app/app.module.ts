@@ -30,6 +30,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDividerModule } from '@angular/material/divider';
 import { MessageModule } from 'primeng/message';
 import { MessagesModule } from 'primeng/messages';
+import { ContactComponent } from './pages/contact/contact.component';
+import { AboutComponent } from './pages/about/about.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 
 
@@ -40,7 +43,10 @@ import { MessagesModule } from 'primeng/messages';
     HomeComponent,
     AuthLayoutComponent,
     BaseLayoutComponent,
-    LoginComponent
+    LoginComponent,
+    ContactComponent,
+    AboutComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +66,8 @@ import { MessagesModule } from 'primeng/messages';
     ReactiveFormsModule,
     MatDividerModule,
     MessageModule,
-    MessagesModule
+    MessagesModule,
+    MatToolbarModule
 
   ],
   providers: [],

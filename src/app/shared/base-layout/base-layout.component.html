@@ -16,7 +16,8 @@ Thomas James Schultz -->
         <button class="logo" routerLink="/" mat-button>nodebucket</button>
 
         <button class="navbar-link" routerLink="/" mat-button>Home</button>
-        <button class="navbar-link" mat-button>About</button>
+        <button class="navbar-link" routerLink="/contact" mat-button>Contact</button>
+        <button class="navbar-link" routerLink="/about" mat-button>About</button>
       </div>
       <div fxFlex></div>
 
@@ -25,10 +26,10 @@ Thomas James Schultz -->
         <button mat-icon-button [matMenuTriggerFor]="profileMenu" aria-label="User Profile Menu">
           <mat-icon>perm_identity</mat-icon>
         </button>
-        <mat-menu #profileMenu>
-          <p style="color: black;">Sign in as {{ sessionName }}</p>
+        <mat-menu #profileMenu class="signIn">
+          <p style="color: black; padding: 25px;">Sign in as {{ sessionName }}</p>
           <button mat-menu-item (click)="logout()">
-            <span>Log out</span>
+            <span style="text-align: center;">Log out</span>
           </button>
         </mat-menu>
       </div>

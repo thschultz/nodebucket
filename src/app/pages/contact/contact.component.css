@@ -1,0 +1,32 @@
+/* WEB 425 Angular with TypeScript
+Contributors
+
+Contributors:
+Richard Krasso
+Thomas James Schultz */
+
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.text-center {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.container {
+  height: 480px;
+  padding-top: 50px;
+}
+
+mat-icon {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+}

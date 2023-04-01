@@ -18,3 +18,33 @@ Thomas James Schultz */
   text-align: center;
   font-size: 14px;
 }
+
+.task-container {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.serverMessage {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.task-column {
+  min-height: 68px;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  display: block;
+}
+
+.task-card {
+  cursor: move;
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+  min-height: 68px;
+  height: 68px;
+  font-size: 14px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
