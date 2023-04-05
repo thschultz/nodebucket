@@ -1598,3 +1598,180 @@
   todo: [],
   done: []
 }
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 6,
+  done: [],
+  todo: [
+    {
+      text: 'Go to bed early',
+      _id: new ObjectId("64225b0a46e4fbb56521bbfb")
+    },
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("6424d513feb012aaf96496ed")
+    },
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("6424d70c7fce8e8780b1acb4")
+    },
+    {
+      text: 'take a nap',
+      _id: new ObjectId("6424d844feb10e4cf91f7528")
+    },
+    {
+      text: 'test task',
+      _id: new ObjectId("6424ede7feb10e4cf91f75c0")
+    },
+    { text: 'test 4', _id: new ObjectId("6424ef56feb10e4cf91f75d4") }
+  ]
+}
+[4/1/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  done: [],
+  todo: [
+    {
+      text: 'Go to bed early',
+      _id: new ObjectId("64225b0a46e4fbb56521bbfb")
+    },
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("6424d513feb012aaf96496ed")
+    },
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("6424d70c7fce8e8780b1acb4")
+    },
+    {
+      text: 'take a nap',
+      _id: new ObjectId("6424d844feb10e4cf91f7528")
+    },
+    {
+      text: 'test task',
+      _id: new ObjectId("6424ede7feb10e4cf91f75c0")
+    },
+    { text: 'test 4', _id: new ObjectId("6424ef56feb10e4cf91f75d4") }
+  ]
+}
+[4/3/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 6,
+  done: [],
+  todo: [
+    {
+      text: 'Go to bed early',
+      _id: new ObjectId("64225b0a46e4fbb56521bbfb")
+    },
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("6424d513feb012aaf96496ed")
+    },
+    {
+      text: 'walk the dog',
+      _id: new ObjectId("6424d70c7fce8e8780b1acb4")
+    },
+    {
+      text: 'take a nap',
+      _id: new ObjectId("6424d844feb10e4cf91f7528")
+    },
+    {
+      text: 'test task',
+      _id: new ObjectId("6424ede7feb10e4cf91f75c0")
+    },
+    { text: 'test 4', _id: new ObjectId("6424ef56feb10e4cf91f75d4") }
+  ]
+}
+[4/3/2023] server	 employee-route.js = {
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ],
+  done: [
+    {
+      text: 'study the final',
+      _id: new ObjectId("642b7c1e370bc285479e84ed")
+    }
+  ],
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  __v: 7
+}
+[4/3/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  done: [
+    {
+      text: 'study the final',
+      _id: new ObjectId("642b7c1e370bc285479e84ed")
+    }
+  ],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}
+[4/3/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  done: [
+    {
+      text: 'study the final',
+      _id: new ObjectId("642b7c1e370bc285479e84ed")
+    }
+  ],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}
+[4/3/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 8,
+  done: [],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}
+[4/3/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  done: [],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}
+[4/3/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  done: [],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}

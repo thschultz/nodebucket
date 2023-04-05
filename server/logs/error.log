@@ -28,3 +28,4 @@
 [3/29/2023] server	 employee-route.js = NotFoundError: Not Found
 [3/29/2023] server	 employee-route.js = req.params must be a number: foo
 [3/29/2023] server	 employee-route.js = Error: Bad Request
+[4/3/2023] server	 employee-route.js = req param.empId must be a number:NaN
