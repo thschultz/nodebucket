@@ -1,0 +1,21 @@
+<!-- WEB 450 Mastering the MEAN Stack Bootcamp
+  // Contributors
+
+  // Contributors:
+  // Richard Krasso
+  // Thomas James Schultz -->
+
+<!-- dialog box to confirm with user if they want to delete task. once done, it can't be undone -->
+<h2>{{ dialogData.header }}</h2>
+
+<div mat-dialog-content>
+  <p>{{ dialogData.body }}</p>
+  <small class="dialog-warning">WARNING: This action cannot be undone.</small>
+</div>
+
+<mat-divider></mat-divider>
+
+<div mat-dialog-actions align="end">
+  <button mat-raised-button matDialogClose="cancel" color="primary">No thanks</button>
+  <button mat-raised-button matDialogClose="confirm" color="primary" cdkFocusInitial>Confirm</button>
+</div>

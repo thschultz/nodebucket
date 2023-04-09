@@ -51,12 +51,28 @@ const tasksSchema = {
     todo: {
       type: 'array',
       additionalProperties: false,
-      items: taskSchema
+      items: {
+        type: 'object',
+        properties: {
+          text: {type: 'string'},
+          _id: { type: 'string'}
+        },
+      required: ['text', '_id'],
+      additionalProperties: false
+      }
     },
     done: {
       type: 'array',
       additionalProperties: false,
-      items: taskSchema
+      items: {
+      type: 'object',
+      properties: {
+        text: {type: 'string'},
+        _id: { type: 'string'}
+      },
+    required: ['text', '_id'],
+    additionalProperties: false
+    }
     }
   }
 }
@@ -184,7 +200,11 @@ router.post("/:empId/tasks", async(req, res, next) => {
     next(err)
   }
 });
+/**
+ * updateTasks
+ */
 
+// updating tasks api
 router.put('/:empId/tasks', async(req, res, next) => {
   let empId = req.params.empId
   empId = parseInt(empId, 10)
@@ -238,6 +258,11 @@ router.put('/:empId/tasks', async(req, res, next) => {
 
 })
 
+/**
+ * deleteTasks
+ */
+
+// deleting tasks api
 router.delete('/:empId/tasks/:taskId', async(req, res, next) => {
   let taskId = req.params.taskId
   let empId = req.params.empId

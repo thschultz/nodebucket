@@ -21,7 +21,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { LoginComponent } from './pages/login/login.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
+import { MatDialogModule } from '@angular/material/dialog';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 import { MatMenuModule } from '@angular/material/menu';
 import { MatCardModule } from '@angular/material/card';
@@ -33,6 +34,7 @@ import { MessagesModule } from 'primeng/messages';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { ConfirmDialogComponent } from './shared/confirm-dialog/confirm-dialog.component';
 
 
 
@@ -46,7 +48,8 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
     LoginComponent,
     ContactComponent,
     AboutComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ConfirmDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -67,7 +70,9 @@ import { NotfoundComponent } from './pages/notfound/notfound.component';
     MatDividerModule,
     MessageModule,
     MessagesModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatDialogModule,
+    DragDropModule
 
   ],
   providers: [],
