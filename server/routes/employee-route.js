@@ -82,6 +82,36 @@ function getTask(id, tasks) {
   return task
 }
 
+
+/**
+ * findEmployeeById
+ * @openapi
+ * /api/employees/{id}:
+ *   get:
+ *     tags:
+ *       - Employees
+ *     description:  API for returning an employee document
+ *     summary: returns an employee document
+ *     parameters:
+ *       - name: empId
+ *         in: path
+ *         required: true
+ *         description: Employee ID
+ *         schema:
+ *           type: number
+ *     responses:
+ *       '200':
+ *         description: Employee document
+ *       '400':
+ *         description: Bad Request
+ *       '404':
+ *         description: Null Record
+ *       '500':
+ *         description: Server exception
+ *       '501':
+ *         description: MongoDB Exception
+ */
+
 // router to get id
 router.get('/:id', (req, res, next) => {
 
@@ -115,6 +145,35 @@ router.get('/:id', (req, res, next) => {
  * 200 - success
  * 500 - server error for all other use cases
  *
+ */
+
+/**
+ * @openapi
+ * /api/employees/{empId}/tasks:
+ *   get:
+ *     tags:
+ *       - Employees
+ *     name: findAllTasks
+ *     description: API to show all tasks by empId
+ *     summary: Find all tasks by empId
+ *     parameters:
+ *       - name: empId
+ *         in: path
+ *         required: true
+ *         description: empId to filter results from MongoDB
+ *         schema:
+ *           type: number
+ *     responses:
+ *       '200':
+ *         description: All tasks listed given the empId
+ *       '400':
+ *         description: Bad Request
+ *       '404':
+ *         description: Null Record
+ *       '500':
+ *         description: Server Exception
+ *       '501':
+ *         description: MongoDB Exception
  */
 
 router.get("/:empId/tasks", async(req, res, next) => {
@@ -151,6 +210,45 @@ router.get("/:empId/tasks", async(req, res, next) => {
 
 /**
  * createTasks
+ */
+
+/**
+ * @openapi
+ * /api/employees/{empId}/tasks:
+ *   post:
+ *     tags:
+ *       - Employees
+ *     name: createTask
+ *     summary: Creates a new task by empId
+ *     parameters:
+ *        - name: empId
+ *          in: path
+ *          required: true
+ *          description: empId to filter results from MongoDB
+ *          schema:
+ *            type: number
+ *     requestBody:
+ *       description: Creates a new task by empId
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             required:
+ *               - text
+ *             properties:
+ *               text:
+ *                 type: string
+ *     responses:
+ *       '200':
+ *         description: New task added to MongoDB
+ *       '400':
+ *         description: Bad Request
+ *       '404':
+ *         description: Null Record
+ *       '500':
+ *         description: Server Exception
+ *       '501':
+ *         description: MongoDB Exception
  */
 
 // posting tasks api
@@ -202,6 +300,52 @@ router.post("/:empId/tasks", async(req, res, next) => {
 });
 /**
  * updateTasks
+ */
+
+/**
+ * @openapi
+ *
+ * /api/employees/{empId}/tasks:
+ *   put:
+ *     tags:
+ *       - Employees
+ *     description: Updates the todo/done arrays for an employee record
+ *     summary: updates tasks for an empId
+ *     operationId: updateTasks
+ *     parameters:
+ *       - name: empId
+ *         in: path
+ *         required: true
+ *         schema:
+ *           type: number
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - todo
+ *               - done
+ *               - doing
+ *             properties:
+ *               todo:
+ *                 type: array
+ *               done:
+ *                 type: array
+ *               doing:
+ *                 type: array
+ *     responses:
+ *       '204':
+ *         description: Tasks updated to MongoDB
+ *       '400':
+ *         description: Bad Request
+ *       '404':
+ *         description: Null Record
+ *       '500':
+ *         description: Server Exception
+ *       '501':
+ *         description: MongoDB Exception
  */
 
 // updating tasks api
@@ -260,6 +404,39 @@ router.put('/:empId/tasks', async(req, res, next) => {
 
 /**
  * deleteTasks
+ */
+
+/**
+ * @openapi
+ * /api/employees/{empId}/tasks/{taskId}:
+ *   delete:
+ *     tags:
+ *       - Employees
+ *     description: deletes a task from either todo or done arrays for an Employee record
+ *     summary: deletes a task for empId
+ *     operationId: deleteTask
+ *     parameters:
+ *       - name: empId
+ *         in: path
+ *         required: true
+ *         scheme:
+ *           type: number
+ *       - name: taskId
+ *         in: path
+ *         required: true
+ *         scheme:
+ *           type: string
+ *     responses:
+ *       '204':
+ *         description: Tasks updated to MongoDB
+ *       '400':
+ *         description: Bad Request
+ *       '404':
+ *         description: Null Record
+ *       '500':
+ *         description: Server Exception
+ *       '501':
+ *         description: MongoDB Exception
  */
 
 // deleting tasks api

@@ -3077,3 +3077,184 @@
   _id: new ObjectId("641903abe870ecf0230dc5b2"),
   __v: 14
 }
+[4/15/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 62,
+  done: [
+    {
+      text: "'ADA - Arial Labels",
+      _id: new ObjectId("64358a5c8363cec6bcde55e8")
+    },
+    {
+      text: 'ADA - Button Link Borders"',
+      _id: new ObjectId("64358a4c8363cec6bcde55da")
+    },
+    {
+      text: 'ADA - Text & Background',
+      _id: new ObjectId("64358a318363cec6bcde55c3")
+    }
+  ],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    },
+    {
+      text: 'RSS Research 1234567890123456789012',
+      _id: new ObjectId("64358a8e8363cec6bcde5603")
+    },
+    {
+      text: 'test task',
+      _id: new ObjectId("6437847e10473015ea24be98")
+    }
+  ]
+}
+[4/15/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  done: [
+    {
+      text: "'ADA - Arial Labels",
+      _id: new ObjectId("64358a5c8363cec6bcde55e8")
+    },
+    {
+      text: 'ADA - Button Link Borders"',
+      _id: new ObjectId("64358a4c8363cec6bcde55da")
+    },
+    {
+      text: 'ADA - Text & Background',
+      _id: new ObjectId("64358a318363cec6bcde55c3")
+    }
+  ],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    },
+    {
+      text: 'RSS Research 1234567890123456789012',
+      _id: new ObjectId("64358a8e8363cec6bcde5603")
+    },
+    {
+      text: 'test task',
+      _id: new ObjectId("6437847e10473015ea24be98")
+    }
+  ]
+}
+[4/15/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 63,
+  done: [
+    {
+      text: "'ADA - Arial Labels",
+      _id: new ObjectId("64358a5c8363cec6bcde55e8")
+    },
+    {
+      text: 'ADA - Button Link Borders"',
+      _id: new ObjectId("64358a4c8363cec6bcde55da")
+    },
+    {
+      text: 'ADA - Text & Background',
+      _id: new ObjectId("64358a318363cec6bcde55c3")
+    }
+  ],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    },
+    {
+      text: 'test task',
+      _id: new ObjectId("6437847e10473015ea24be98")
+    }
+  ]
+}
+[4/15/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 64,
+  done: [
+    {
+      text: "'ADA - Arial Labels",
+      _id: new ObjectId("64358a5c8363cec6bcde55e8")
+    },
+    {
+      text: 'ADA - Button Link Borders"',
+      _id: new ObjectId("64358a4c8363cec6bcde55da")
+    },
+    {
+      text: 'ADA - Text & Background',
+      _id: new ObjectId("64358a318363cec6bcde55c3")
+    }
+  ],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}
+[4/15/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 65,
+  done: [
+    {
+      text: 'ADA - Button Link Borders"',
+      _id: new ObjectId("64358a4c8363cec6bcde55da")
+    },
+    {
+      text: 'ADA - Text & Background',
+      _id: new ObjectId("64358a318363cec6bcde55c3")
+    }
+  ],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}
+[4/15/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 66,
+  done: [
+    {
+      text: 'ADA - Text & Background',
+      _id: new ObjectId("64358a318363cec6bcde55c3")
+    }
+  ],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}
+[4/15/2023] server	 employee-route.js = {
+  _id: new ObjectId("64190307e870ecf0230dc5b1"),
+  empId: 1007,
+  firstName: 'Ludwig',
+  lastName: 'Beethoven',
+  __v: 67,
+  done: [],
+  todo: [
+    {
+      text: 'study the test',
+      _id: new ObjectId("642b7c1e370bc285479e84ec")
+    }
+  ]
+}

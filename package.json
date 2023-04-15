@@ -33,9 +33,10 @@
     "primeng": "^14.0.1",
     "render": "^0.1.4",
     "rxjs": "~7.5.0",
-    "swagger-ui": "^4.18.1",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.0.5",
